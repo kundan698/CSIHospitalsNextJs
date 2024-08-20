@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cl{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.uro:hover{
+  background-color: #C0333D;
+  color: white;
+}
+.bdr{
+  border: 1px solid #C0333D;
+  padding: 20px;
+}
+.zig{
+  margin-top: 40px;
+  background:linear-gradient(#ffffffc8,#ffffffd8), url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSvkjNZFOVi43nea90F_jkhthrP874OD2SJdNQ300rdA2i0m14Z');
+  height: 100vh;
+  
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.hvr{
+  overflow: hidden;
+  margin-left: 20px;
+  cursor: pointer;
+  
+}
+.hvr img{
+  border-radius: 8px;
+  
+  transition: 0.5s;
+
+}
+.hvr img:hover{
+   transform: scale(1.1);
+}
+.whats{
+  padding: 15px;
+  cursor: pointer;
+  background-color: #26D367;
+  
+}
+.pns{
+  position: relative;
+}
+
+.icon{
+  position: fixed;
+  background-color: #26D367;
+  color: white;
+  padding: 18px;
+  right: 60px;
+  top: 208px;
+  z-index: 99;
+  border-radius: 8px 0px 0px 8px;
+  transform: scale(0);
+  transition: 0.5s;
+  transform-origin: right;
+
+}
+.pns:hover .icon{
+  transform: scale(1);
+}
+.bg1{
+  padding: 15px;
+  background-color: #26D37C;
+}
+.pns1{
+  position: relative;
+  cursor: pointer;
+  
+}
+.icon1{
+  position: fixed;
+  top: 268px;
+  right: 60px;
+  z-index: 10000;
+  background-color: #26D37C;
+  padding: 18px;
+  width: 110px;
+  border-radius: 8px 0px 0px 8px;
+  color: white;
+  transform: scale(0);
+  transition: 0.5s;
+  transform-origin: right;
+  text-align: center;
+  
+}
+.pns1:hover .icon1{
+  transform: scale(1);
+  
+}
+.show{
+  max-height: 0px;
+  overflow: hidden;
+  transition:  max-height 1s , overflow 1s;
+}
+.showAns{
+  padding: 10px;
+  overflow: visible;
+  max-height: 500px;
+  
+}
+.sms{
+  border-radius: 8px 8px 0px 0px;
+}
+.fixs{
+  border: 2px solid white;
+}
+.sms1{
+  border-top: 2px solid lightgray;
+ 
+}
+
+.menubar{
+  position: fixed;
+  height: 400px;
+  width: 1170px;
+  background-color: white;
+ 
+ 
+  left: 100px;
+  top: 130px;
+  transform: scale(1);
+  z-index: 200;
+}
+.bdrs{
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+}
+.bdrs p{
+  font-size: 14px;
+ 
+}
+.bord1{
+  border: 2px solid #C0333D;
+}
+.cls1{
+  border: 2px solid #C0333D;
+  border-radius: 8px;
+ padding: 20px;
+  width: 100%;
+}
+#urology{
+  border: 1px solid #C0333D;
+  border-radius: 8px;
+  width: 90%;
+  padding: 20px;
+  
+}
+.slid{
+  overflow: hidden;
+ 
+  
+}
+.slid .img{
+  transform: 0.5s;
+}
+.slid1:hover{
+  transform: scale(1.1);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
